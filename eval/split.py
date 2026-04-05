@@ -39,8 +39,8 @@ def split_data(tweet_raw_path: str, emoji_raw_path: str, output_folder: str, spl
 
 if __name__ == "__main__":
 
-    tweets_raw_file_path = Path(__file__).parent.parent / Path("data/raw/tweets.txt")
-    emoji_raw_file_path = Path(__file__).parent.parent / Path("data/raw/emoji.txt")
+    tweets_raw_file_path = Path(__file__).parent.parent / Path("data/tweets.txt")
+    emoji_raw_file_path = Path(__file__).parent.parent / Path("data/emoji.txt")
     output_folder = Path(__file__).parent.parent / Path("data/split")
 
     split_data(
